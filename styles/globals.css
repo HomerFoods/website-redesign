@@ -1,3 +1,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: "GILROYSEMIBOLD";
+    src: url("../public/fonts/GilroySemibold.ttf");
+  }
+
+
+@font-face {
+    font-family: "GILROYBOLD";
+    src: url("../public/fonts/GilroyBold.ttf");
+  }
+
+
+@font-face {
+    font-family: "GILROYMEDIUM";
+    src: url("../public/fonts/GilroyMedium.ttf");
+  }
+
+
+@font-face {
+    font-family: "GILROYLIGHT";
+    src: url("../public/fonts/GilroyLight.ttf");
+  }
