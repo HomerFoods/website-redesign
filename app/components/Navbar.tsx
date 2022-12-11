@@ -8,23 +8,24 @@ import Card from "../../public/assets/Card.png";
 import { useState } from "react";
 
 const Navbar: NextPage = () => {
+  
   const [open, setopen] = useState(false);
 
   return (
-    <div className="bg-white md:shadow-sm shadow-[#F2F2F2] w-full items-center pb-8">
+    <div className="bg-white md:shadow-sm shadow-[#F2F2F2] w-full items-center mb-8">
       <div className="md:mx-20 mx-3 justify-between flex md:mt-5 mt-4 h-16">
         {/*LEFT SECTION*/}
         <div className="md:flex md:space-x-12">
           {/*LOGO*/}
-          <div className=" w-28 items-start justify-start text-center flex-col flex mr-14 relative">
+          <div className=" w-28 items-center justify-evenly text-center flex-col flex mr-14 relative">
             <h1 className=" text-[#FFC727] font-gilroymedium text-xl md:absolute">
               homerfoods.
             </h1>
-            <h1 className="rotate-90 ml-1 text-[#FFC727] font-gilroymedium md:bottom-5 md:absolute absolute -bottom-2">)</h1>
+            <h1 className="rotate-90 ml-1 text-[#FFC727] font-gilroymedium md:bottom-[5px] md:absolute absolute -bottom-2">)</h1>
           </div>
           {/*NAVIGATION ITEMS*/}
           <ul
-            className='md:space-x-12 md:flex font-gilroymedium hidden items-start justify-start text-center mt-1'
+            className='md:space-x-12 md:flex font-gilroymedium hidden items-center justify-start text-center mt-1'
           >
             <li className="text-sm cursor-pointer hover:underline decoration-[#F9CF6B] underline-offset-4 decoration-2 ease-in-out">
               Home
@@ -48,7 +49,7 @@ const Navbar: NextPage = () => {
           </ul>
         </div>
         {/*RIGHT SECTION*/}
-        <div className="md:flex md:space-x-8 items-start">
+        <div className="md:flex md:space-x-8 items-center">
           <span className="bg-[#F9F9F9] relative hidden rounded-full p-2 md:flex items-center h-10 w-10 text-center justify-center">
             <Image
               src={ShoppingBag}
@@ -61,7 +62,7 @@ const Navbar: NextPage = () => {
               0
             </span>
           </span>
-          <button className="bg-[#FFC727] md:flex hidden text-black font-gilroymedium text-sm py-2 px-8 rounded-lg border-r-2 border-b-2 border-black hover:animate-pulse">
+          <button className="bg-[#FFC727] md:flex hidden text-black border-none rounded-[12px] font-gilroymedium max-w-[166px] text-[13px] py-[15px] px-[30px] border-r-2 border-b-2 hover:animate-pulse">
             Get HomerFoods
           </button>
           <HiOutlineMenuAlt4

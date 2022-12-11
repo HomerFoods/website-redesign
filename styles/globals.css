@@ -24,3 +24,7 @@
     font-family: "GILROYLIGHT";
     src: url("../public/fonts/GilroyLight.ttf");
   }
+
+body *:not(i) {
+    font-family: 'GILROYMEDIUM', sans-serif;
+}
