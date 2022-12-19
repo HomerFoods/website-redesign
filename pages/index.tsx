@@ -1,6 +1,5 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import Image from 'next/image'
 import Features from '../app/components/features';
 import Footer from '../app/components/footer';
 import Hero from '../app/components/hero';
@@ -33,7 +32,7 @@ const Home: NextPage = () => {
 
       <Testimonial />
 
-      <div className="h-[485px] w-full bg-[#FFF8E4] mb-[101px]"></div>
+      <div className="h-[485px] w-full bg-[#FFF8E4] rounded-[12px] mb-[101px]"></div>
 
     </div>
     <Footer />

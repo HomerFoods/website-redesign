@@ -6,8 +6,8 @@ import revs from '../../../public/assets/revs.svg';
 const Hero = () => {
     return (
       <div className="flex items-center mt-5 w-full justify-between">
-        <div className="w-1/2">
-          <h2 className="font-bold font-gilroybold mb-[13px] text-[80px] leading-[96px]">
+        <div className="w-1/2 sx:w-full">
+          <h2 className="font-bold font-gilroybold mb-[13px] mx:text-[50px] mx:leading-[48px] text-[80px] leading-[96px]">
             Built to serve the food community
           </h2>
 
@@ -18,12 +18,11 @@ const Hero = () => {
             home
           </span>
 
-          <div className="flex w-full mb-[57px] items-center justify-evenly">
-           
-            <button className="bg-[#FFC727] border-2 border-solid border-[#ffc727] border-r-[#121212] border-b-[#121212] text-white font-gilroymedium w-fit text-sm py-3 px-4 rounded-lg">
+          <div className="flex w-full mmx:flex-col mb-[57px] items-center justify-evenly">
+            <button className="bg-[#FFC727] border-2 border-solid border-[#ffc727] border-r-[#121212] mmx:mb-3 mmx:w-full border-b-[#121212] text-white font-gilroymedium w-fit text-sm py-3 px-4 rounded-lg">
               Get Homer foods
             </button>
-            <button className="border-[#FFC727] border-2 bg-transparent text-[#121212] flex items-center font-gilroymedium min-w-fit text-sm py-3 px-4 rounded-lg">
+            <button className="border-[#FFC727] border-2 bg-transparent text-[#121212] flex mmx:justify-center mmx:w-full items-center font-gilroymedium min-w-fit text-sm py-3 px-4 rounded-lg">
               <Image
                 src={shopping}
                 className="mr-2"
@@ -40,7 +39,7 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className="w-1/2">
+        <div className="w-1/2 sx:hidden">
           <Image src={baseImg} alt={"homerfoods"} />
         </div>
       </div>

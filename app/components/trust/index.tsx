@@ -15,9 +15,9 @@ const Trust = () => {
 
         <div
           style={{
-            gridTemplateColumns: "repeat(auto-fill, minmax(270px, 1fr))",
+            gridTemplateColumns: "repeat(auto-fill, minmax(184px, 1fr))",
           }}
-          className="grid gap-6 grid-flow-dense"
+          className="grid gap-6 max-w-[958px] mx-auto grid-flow-dense"
         >
           <div className="flex items-center justify-center">
             <Image src={sb} width={60} height={60} alt={"starbucks"} />

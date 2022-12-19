@@ -28,3 +28,7 @@
 body *:not(i) {
     font-family: 'GILROYMEDIUM', sans-serif;
 }
+
+body {
+  min-width: 340px;
+}

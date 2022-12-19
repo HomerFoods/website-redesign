@@ -13,24 +13,21 @@ const Navbar: NextPage = () => {
 
   return (
     <div className="bg-white md:shadow-sm shadow-[#F2F2F2] w-full items-center mb-8">
-      <div className="md:mx-20 mx-3 justify-between flex md:mt-5 mt-4 h-16">
+      <div className="md:mx-20 sx:mx-1 mx-3 justify-between flex md:mt-5 mt-4 h-16 sx:h-fit">
         {/*LEFT SECTION*/}
-        <div className="md:flex md:space-x-12">
+        <div className="md:flex md:space-x-12 sx:space-x-4">
           {/*LOGO*/}
-          <div className=" w-28 items-center justify-evenly text-center flex-col flex mr-14 relative">
+          <div className=" w-28 items-center justify-evenly text-center flex-col flex mr-14 sx:mr-5 relative">
             <h1 className=" text-[#FFC727] font-gilroymedium text-xl md:absolute">
               homerfoods.
             </h1>
-            <h1 className="rotate-90 ml-1 text-[#FFC727] font-gilroymedium md:bottom-[5px] md:absolute absolute -bottom-2">)</h1>
+            <h1 className="rotate-90 ml-1 text-[#FFC727] font-gilroymedium md:bottom-[5px] md:absolute absolute -bottom-2">
+              )
+            </h1>
           </div>
           {/*NAVIGATION ITEMS*/}
-          <ul
-            className='md:space-x-12 md:flex font-gilroymedium hidden items-center justify-start text-center mt-1'
-          >
-            <li className="text-sm cursor-pointer hover:underline decoration-[#F9CF6B] underline-offset-4 decoration-2 ease-in-out">
-              Home
-            </li>
-            <li className="text-sm cursor-pointer hover:underline decoration-[#F9CF6B] underline-offset-4 decoration-2 ease-in-out">
+          <ul className="md:space-x-12 md:flex font-gilroymedium hidden items-center justify-start text-center sx:space-x-8 mt-1">
+            <li className="text-sm cursor-pointer mx:hidden hover:underline decoration-[#F9CF6B] underline-offset-4 decoration-2 ease-in-out">
               Business{" "}
               <span className="border rounded-full border-[#F9CF6B] text-xs text-[#FFC727] py-1 px-2 ml-1">
                 Beta
@@ -43,9 +40,15 @@ const Navbar: NextPage = () => {
                 <MdExpandMore />{" "}
               </span>
             </li>
-            <li className="text-sm cursor-pointer hover:underline decoration-[#F9CF6B] underline-offset-4 decoration-2 ease-in-out">Restaurants</li>
-            <li className="text-sm cursor-pointer hover:underline decoration-[#F9CF6B] underline-offset-4 decoration-2 ease-in-out">Tracking</li>
-            <li className="text-sm cursor-pointer hover:underline decoration-[#F9CF6B] underline-offset-4 decoration-2 ease-in-out">Help</li>
+            <li className="text-sm cursor-pointer hover:underline decoration-[#F9CF6B] underline-offset-4 decoration-2 ease-in-out">
+              Restaurants
+            </li>
+            <li className="text-sm cursor-pointer hover:underline decoration-[#F9CF6B] underline-offset-4 decoration-2 ease-in-out">
+              Tracking
+            </li>
+            <li className="text-sm cursor-pointer mx:hidden hover:underline decoration-[#F9CF6B] underline-offset-4 decoration-2 ease-in-out">
+              Help
+            </li>
           </ul>
         </div>
         {/*RIGHT SECTION*/}
@@ -81,7 +84,13 @@ const Navbar: NextPage = () => {
       </div>
 
       {/*MOBILE NAVBAR*/}
-      <div className={`${open === true ? 'float-left bg-white z-10 w-screen p-3 md:hidden flex flex-col h-screen': 'hidden'}`}>
+      <div
+        className={`${
+          open === true
+            ? "float-left bg-white z-10 w-screen p-3 md:hidden flex flex-col h-screen"
+            : "hidden"
+        }`}
+      >
         {/*NAVIGATION*/}
         <div className="">
           <ul className="font-gilroymedium">
@@ -98,10 +107,7 @@ const Navbar: NextPage = () => {
                 </p>
               </span>
             </span>
-           
           </ul>
-
-         
         </div>
         {/*FOOTER*/}
         <div className="flex space-x-2 mt-10">

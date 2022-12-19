@@ -8,15 +8,15 @@ const Testimonial = () => {
           Testimonials
         </span>
 
-        <div className="flex mb-[64px] items-end mx-auto justify-between">
-          <h2 className="text-[#121212] w-[50%] font-[500] text-[64px] leading-[70.4px] mb-4">
+        <div className="flex mb-[64px] mx:flex-col mx:items-start items-end mx-auto justify-between">
+          <h2 className="text-[#121212] w-[50%] font-[500] text-[64px] leading-[70.4px] mb-4 mx:text-[40px] sx:w-full sx:text-[30px] sx:leading-[50px] mx:leading-[60px]">
             People all over the world use HomerFoods.
           </h2>
 
           <span className="w-fit flex">
             <BsFillStarFill size={20} color={"#FFC727"} className="mr-4" />{" "}
-            Rated <span className="text-[#FFC727] block mx-1"> 4.8/5 </span> for over
-            1000 users
+            Rated <span className="text-[#FFC727] block mx-1"> 4.8/5 </span> for
+            over 1000 users
           </span>
         </div>
 

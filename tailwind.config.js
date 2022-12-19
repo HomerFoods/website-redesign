@@ -18,6 +18,12 @@ module.exports = {
       '4xl': '0.1rem',
     },
     extend: {
+      screens: {
+        mx: {max: '1128px'},
+        sx: {max: '871px'},
+        ssx: {max: '450px'},
+        mmx: {max: '389px'}
+      },
       fontFamily: {
         gilroymedium: ['GILROYMEDIUM', 'sans-serif'],
         gilroysemibold: ['GILROYSEMIBOLD', 'sans-serif'],

@@ -7,10 +7,10 @@ import Link from 'next/link';
 const Notif = () => {
     return (
       <div className="my-[5pc] flex items-center justify-center mx-auto w-[80%]">
-        <div className="mr-[50px] w-1/2">
+        <div className="mr-[50px] sx:w-full sx:mr-0 w-1/2">
           <span className="text-[#121212] text-[18px] mb-2">Notifications</span>
 
-          <h2 className="text-[#121212] font-[600] text-[50px] leading-[50px] mb-4">
+          <h2 className="text-[#121212] mx:text-[40px] font-[600] text-[50px] leading-[50px] mb-4">
             Stay Notified
           </h2>
 
@@ -46,7 +46,7 @@ const Notif = () => {
           </Link>
         </div>
 
-        <div>
+        <div className="sx:hidden">
           <Image src={noti} alt={"homerfoods notification"} />
         </div>
       </div>

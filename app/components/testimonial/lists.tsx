@@ -17,7 +17,7 @@ const Tlist = ( { stars, content, header, user }: { stars: number, content: stri
         }
 
     return (
-      <div className="p-8 w-[447px] border-2 border-[#E8E8E8] border-solid rounded-[8px] mr-8">
+      <div className="p-8 min-w-[447px] w-[447px] border-2 border-[#E8E8E8] border-solid rounded-[8px] mr-8">
         <div className="flex items-center w-fit mb-2">{starx.current}</div>
 
         {Boolean(header) && (
