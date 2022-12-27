@@ -7,7 +7,7 @@ const Special = () => {
       <div className="mt-10 mx:flex-col flex items-center mb-3 justify-center">
         <div className="mr-[48px] mx:mb-4 mx:mr-0 mx:px-5 mx:w-full w-1/2">
           <div className="mb-[52px]">
-            <h2 className="font-bold font-gilroybold mb-[7px] ssx:text-[35px] ssx:leading-[45px] text-[50px] leading-[60px]">
+            <h2 className="font-[600] font-gilroymedium mb-[7px] ssx:text-[25px] ssx:leading-[35px] text-[40px] leading-[50px]">
               Explore various delicacies from different resturant
             </h2>
 

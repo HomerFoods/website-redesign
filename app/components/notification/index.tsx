@@ -10,7 +10,7 @@ const Notif = () => {
         <div className="mr-[50px] sx:w-full sx:mr-0 w-1/2">
           <span className="text-[#121212] text-[18px] mb-2">Notifications</span>
 
-          <h2 className="text-[#121212] mx:text-[40px] font-[600] text-[50px] leading-[50px] mb-4">
+          <h2 className="text-[#121212] mx:text-[40px] font-[500] font-gilroymedium text-[40px] leading-[40px] mb-4">
             Stay Notified
           </h2>
 

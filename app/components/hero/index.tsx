@@ -7,7 +7,7 @@ const Hero = () => {
     return (
       <div className="flex items-center mt-5 w-full justify-between">
         <div className="w-1/2 sx:w-full">
-          <h2 className="font-bold font-gilroybold mb-[13px] mx:text-[50px] mx:leading-[48px] text-[80px] leading-[96px]">
+          <h2 className="font-[600] font-gilroysemibold mb-[13px] mx:text-[40px] mx:leading-[38px] text-[70px] leading-[86px]">
             Built to serve the food community
           </h2>
 

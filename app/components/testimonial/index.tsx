@@ -9,7 +9,7 @@ const Testimonial = () => {
         </span>
 
         <div className="flex mb-[64px] mx:flex-col mx:items-start items-end mx-auto justify-between">
-          <h2 className="text-[#121212] w-[50%] font-[500] text-[64px] leading-[70.4px] mb-4 mx:text-[40px] sx:w-full sx:text-[30px] sx:leading-[50px] mx:leading-[60px]">
+          <h2 className="text-[#121212] w-[50%] font-[500] text-[44px] leading-[50.4px] mb-4 mx:text-[20px] sx:w-full sx:text-[30px] sx:leading-[30px] mx:leading-[40px]">
             People all over the world use HomerFoods.
           </h2>
 

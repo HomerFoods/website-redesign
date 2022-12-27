@@ -5,7 +5,7 @@ const Features = () => {
     return (
       <div className="flex my-9 items-center justify-center">
         <div className="w-1/2 sx:w-full">
-          <h2 className="font-[600] mx:text-[40px] text-[50px] leading-[50px] mb-[95px] sx:mb-[30px]">
+          <h2 className="font-[600] font-gilroymedium mx:text-[30px] text-[40px] leading-[40px] mb-[85px] sx:mb-[30px]">
             Easy to use Ordering System
           </h2>
 
