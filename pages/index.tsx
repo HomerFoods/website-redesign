@@ -12,30 +12,30 @@ import Trust from '../app/components/trust';
 const Home: NextPage = () => {
   return (
     <>
-    <div className="flex min-h-screen px-4 flex-col">
-      <Head>
-        <title>HomerFoods</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+      <div className="flex min-h-screen flex-col">
+        <Head>
+          <title>HomerFoods</title>
+          <link rel="icon" href="/favicon.ico" />
+        </Head>
 
-      <Navbar />
+        <div className="bg-[#FFFBF0] overflow-hidden h-[42pc]">
+          <Navbar />
 
-      <Hero />
+          <Hero />
+        </div>
 
-      <Trust />
+        <Trust />
 
-      <Special />
 
-      <Features />
+        <Features />
 
-      <Notif />
+        <Notif />
 
-      <Testimonial />
+        <Testimonial />
 
-      <div className="h-[485px] w-full bg-[#FFF8E4] rounded-[12px] mb-[101px]"></div>
-
-    </div>
-    <Footer />
+        <div className="h-[485px] w-full bg-[#FFF8E4] rounded-[12px] mb-[101px]"></div>
+      </div>
+      <Footer />
     </>
   );
 }

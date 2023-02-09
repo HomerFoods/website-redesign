@@ -32,3 +32,26 @@ body *:not(i) {
 body {
   min-width: 340px;
 }
+
+
+body::-webkit-scrollbar,
+.cusscroller::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+body::-webkit-scrollbar-track,
+.cusscroller::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+body::-webkit-scrollbar-thumb,
+.cusscroller::-webkit-scrollbar-thumb {
+  background-color: rgb(219, 219, 219);
+  border-radius: 20px;
+}
+
+body::-webkit-scrollbar-thumb:hover,
+.cusscroller::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(190, 190, 190);
+}

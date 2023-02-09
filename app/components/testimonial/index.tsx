@@ -3,7 +3,7 @@ import Tlist from "./lists";
 
 const Testimonial = () => {
     return (
-      <div className="my-[2pc] w-[80%] mx-auto">
+      <div className="my-[2pc] w-[90%] mx-auto">
         <span className="text-[#121212] block mx-auto text-[18px] mb-2">
           Testimonials
         </span>
@@ -20,7 +20,7 @@ const Testimonial = () => {
           </span>
         </div>
 
-        <div className="flex items-start flex-nowrap overflow-x-scroll overflow-y-hidden pb-3">
+        <div className="flex items-start flex-nowrap overflow-x-scroll overflow-y-hidden cusscroller pb-3">
           <Tlist
             stars={5}
             content={

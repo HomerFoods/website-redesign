@@ -6,7 +6,7 @@ import Link from 'next/link';
 
 const Notif = () => {
     return (
-      <div className="my-[5pc] flex items-center justify-center mx-auto w-[80%]">
+      <div className="my-[5pc] flex items-center justify-center mx-auto w-[90%]">
         <div className="mr-[50px] sx:w-full sx:mr-0 w-1/2">
           <span className="text-[#121212] text-[18px] mb-2">Notifications</span>
 
